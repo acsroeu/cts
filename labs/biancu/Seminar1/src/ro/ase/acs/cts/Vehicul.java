@@ -1,6 +1,7 @@
 package ro.ase.acs.cts;
 
 public abstract class Vehicul {
+	@SuppressWarnings("unused")
 	private final int MAX_INT= 9999999;
 	private int viteza;
 	private String denumire;
